@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 export default {
   content: [
@@ -8,8 +8,70 @@ export default {
   //darkMode: "class",
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        cerulean: {
+          DEFAULT: "#086680",
+          100: "#02151a",
+          200: "#032934",
+          300: "#053e4e",
+          400: "#075368",
+          500: "#086680",
+          600: "#0d9fc7",
+          700: "#2dc7f2",
+          800: "#73daf6",
+          900: "#b9ecfb",
+        },
+        moonstone: {
+          DEFAULT: "#1eb6c6",
+          100: "#062528",
+          200: "#0c4950",
+          300: "#126e78",
+          400: "#1892a0",
+          500: "#1eb6c6",
+          600: "#3cd1e2",
+          700: "#6ddde9",
+          800: "#9de8f0",
+          900: "#cef4f8",
+        },
+        pale_azure: {
+          DEFAULT: "#7fcff5",
+          100: "#053145",
+          200: "#0a628a",
+          300: "#1093d0",
+          400: "#3ab6f0",
+          500: "#7fcff5",
+          600: "#99d9f7",
+          700: "#b2e3f9",
+          800: "#ccecfb",
+          900: "#e5f6fd",
+        },
+        alice_blue: {
+          DEFAULT: "#d9eaff",
+          100: "#002b5f",
+          200: "#0055be",
+          300: "#1e83ff",
+          400: "#7cb7ff",
+          500: "#d9eaff",
+          600: "#e2efff",
+          700: "#eaf3ff",
+          800: "#f1f7ff",
+          900: "#f8fbff",
+        },
+        midnight_green: {
+          DEFAULT: "#094f60",
+          100: "#021014",
+          200: "#042027",
+          300: "#05303b",
+          400: "#07404e",
+          500: "#094f60",
+          600: "#108dac",
+          700: "#22c2ea",
+          800: "#6cd7f1",
+          900: "#b5ebf8",
+        },
+      },
+    },
   },
   plugins: [],
-} satisfies Config
-
+} satisfies Config;
