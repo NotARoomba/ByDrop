@@ -7,17 +7,17 @@ export default function Meter() {
   return (
     <View className="bg-moonstone shadow-midnight_green shadow-lg rounded-3xl w-5/6 mx-auto flex p-10 ">
       <Text className="text-pale_azure mx-auto text-2xl font-semibold">
-        You have spent:
+        Has gastado:
       </Text>
       <Text className="text-cerulean mx-auto font-bold text-4xl my-2">
         123.456,23 COP
       </Text>
       <Text className="text-pale_azure ml-auto text-xl font-semibold">
-        the equivalent of 43 m³
+        el equivalente de 43 m³
       </Text>
       <View className="my-4" />
       <Text className="text-pale_azure mx-auto text-2xl font-semibold">
-        Compared to last month
+        Meses Previos
       </Text>
       <LineChart
         data={{
