@@ -20,3 +20,6 @@ expo-env.d.ts
 # @end expo-cli
 
 nativewind-env.d.ts
+
+ios
+android
